@@ -52,7 +52,27 @@ int main(int argc, char const *argv[])
 	cout<<mat[0]<<endl;
 	cout<<mat[1]<<endl;
 	int val = get_min_source (mat,n);
-	cout<<val;
+	cout<<"minimumval number of post : "<<endl;
+	int M =9999999;
+	for (int i = 0; i < 2; ++i)
+	{
+		for (int j = 0; j < n ; ++j)
+		{
+			if (mat[i][j]=='.')
+				{
+				mat[i][j]='X';
+				
+				
+				M=min (M,get_min_source(mat,n));
+
+				}
+			/* code */
+		}
+
+
+		/* code */
+	}
+
 	/* code */
 	return 0;
 }

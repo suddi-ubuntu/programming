@@ -25,7 +25,7 @@ int main()
 			/* code */
 		}
 		if(flag==1)
-			{count++;i=i+small_size-1;}
+			{count++;i=i+small_size;}
 		/* code */
 	}
 	cout<<count<<endl;
